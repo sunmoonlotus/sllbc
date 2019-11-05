@@ -1,0 +1,22 @@
+{
+  "name": "sllbc",
+  "version": "1.0.0",
+  "description": "blockchain of sll org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunmoonlotus/sllbc.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunmoonlotus/sllbc/issues"
+  },
+  "homepage": "https://github.com/sunmoonlotus/sllbc#readme"
+}
