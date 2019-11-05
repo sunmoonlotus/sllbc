@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sunmoonlotus/sllbc/issues"
   },
-  "homepage": "https://github.com/sunmoonlotus/sllbc#readme"
+  "homepage": "https://github.com/sunmoonlotus/sllbc#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.27"
+  }
 }
