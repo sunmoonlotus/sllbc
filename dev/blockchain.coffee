@@ -1,4 +1,4 @@
-{moment} = require 'moment-timezone'
+moment = require 'moment-timezone'
 
 class Blockchain
   constructor: ->
