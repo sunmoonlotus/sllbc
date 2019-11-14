@@ -19,4 +19,5 @@ class Blockchain
     }
     # clear for later use
     @newTransactions = []
+    @chain.unshift(newBlock)
     newBlock
