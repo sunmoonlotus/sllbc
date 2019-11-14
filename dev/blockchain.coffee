@@ -21,3 +21,7 @@ class Blockchain
     @newTransactions = []
     @chain.unshift(newBlock)
     newBlock
+
+
+
+module.exports = Blockchain
