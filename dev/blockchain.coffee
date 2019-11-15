@@ -3,7 +3,14 @@ moment = require 'moment-timezone'
 class Blockchain
   constructor: ->
     @chain = []
-    @newTransactions = []
+    @pendingTransactions = []
+
+
+
+  createNewTransaction: ({amount, sender, recipient}) ->
+    newTransaction = {amount,sender,recipient}
+    @pendingTransactions.unshift(newTransaction)
+    @lastBlock()['index'] + 1
 
 
 
@@ -12,15 +19,23 @@ class Blockchain
     newBlock = {
       index: @chain.length + 1
       timestamp: moment.now()
-      transactions: @newTransactions
+      transactions: @pendingTransactions
       nonce
       hash
       previousBlockHash
     }
     # clear for later use
-    @newTransactions = []
+    @pendingTransactions = []
     @chain.unshift(newBlock)
     newBlock
+
+
+
+  lastBlock: ->
+    @chain[0]
+
+
+
 
 
 
