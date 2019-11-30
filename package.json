@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sunmoonlotus/sllbc#readme",
   "dependencies": {
+    "crypto-js": "^3.1.9-1",
     "moment-timezone": "^0.5.27"
   }
 }
