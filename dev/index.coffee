@@ -1,5 +1,6 @@
-Blockchain = require './blockchain'
-bitcoin = new Blockchain()
+#Blockchain = require './blockchain'
+#bitcoin = new Blockchain()
+bitcoin = require './bitcoin'
 moment = require 'moment-timezone'
 
 bitcoin.createNewTransaction({amount:100,sender:'ALEXHT845SJ5TKCJ2',recipient:'JENN5BG5DF6ssHT8NG9'})
