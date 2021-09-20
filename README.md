@@ -1,7 +1,10 @@
-# sllbc
+# bitcoin
+
+## sllbc
+
 block chain of solar lunar lotus org, following the book blockchain programming with Javascript.
 
-# to run test
+## to run test
 
 ```sh
   npm i -S
